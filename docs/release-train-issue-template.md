@@ -22,7 +22,7 @@ Variables to be expanded in this template:
 - [ ] For non-patch releases: Create a news item draft PR on [akka.github.com](https://github.com/akka/akka.github.com), using the milestone
 - [ ] Move all [unclosed issues](https://github.com/akka/akka-management/issues?q=is%3Aopen+is%3Aissue+milestone%3A$AKKA_MANAGEMENT_VERSION$) for this milestone to the next milestone
 
-### Cutting the release ok
+### Cutting the release done
 
 - [ ] Wait until [master build finished](https://travis-ci.org/akka/akka-management/builds/) after the last merge
 - [ ] Create a [new release](https://github.com/akka/akka-management/releases/new) with notes from the [milestone](https://github.com/akka/akka-management/milestones/$AKKA_MANAGEMENT_VERSION$) and [`sbt-authors`](https://github.com/2m/authors) (eg. `sbt "authors v0.22 HEAD"`)
